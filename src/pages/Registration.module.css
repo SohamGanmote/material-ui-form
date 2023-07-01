@@ -1,0 +1,43 @@
+.registration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.registration img {
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+  margin: 0;
+}
+
+.registrationForm {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .registration img {
+    width: 30%;
+  }
+  .registrationForm {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .registration {
+    flex-direction: column;
+  }
+  .registration img {
+    display: none;
+  }
+  .registrationForm {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .registrationForm {
+    width: 100%;
+  }
+}

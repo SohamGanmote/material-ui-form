@@ -1,0 +1,28 @@
+.btn {
+  width: 610px;
+  height: 50px;
+  background-color: #7076fe;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+  margin: 20px 0px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #7076feee;
+}
+
+.btn.login {
+  margin-top: 50px;
+}
+
+.btn:disabled {
+  background-color: #d3d3d3;
+  color: black;
+  cursor: not-allowed;
+}
